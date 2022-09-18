@@ -18,7 +18,7 @@ class User():
     def __init__(self):
         """
         Initialize a new user:
-        - assigned an unique `id`
+        - assigned a unique `id`
         """
         self.id = str(uuid.uuid4())
 
